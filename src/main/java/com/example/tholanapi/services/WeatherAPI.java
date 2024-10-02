@@ -10,7 +10,7 @@ public class WeatherAPI {
         String apiKey = "b7898bc70b4166f63bb3fa82fd10143a";
         String city = "Thanjavur"; // Assuming you want weather data for Thanjavur
 
-        // Construct the URL for the weather API
+        // Construct the URL for the weather API -
 
         String url = "http://api.openweathermap.org/data/2.5/weather?q="+ city +"&appid="+ apiKey;
 
